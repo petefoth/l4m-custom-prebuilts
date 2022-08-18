@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <privapp-permissions package="com.aurora.services">
-        <permission name="android.permission.DELETE_PACKAGES" />
-        <permission name="android.permission.INSTALL_PACKAGES" />
-    </privapp-permissions>
-</permissions>
+version https://git-lfs.github.com/spec/v1
+oid sha256:da19f1c99f53a62de6836c9990e4d2f5158f345abe9fab46e8acc31fc2c1f219
+size 282

@@ -1,10 +1,3 @@
-include $(CLEAR_VARS)
-LOCAL_MODULE := UpstreamEtar
-LOCAL_SRC_FILES := ws.xsoh.etar_32.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_OVERRIDES_PACKAGES := Etar
-include $(BUILD_PREBUILT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ee8f54f1732fa98cc06316db95746dd5439f4d872e5c6aabfb2089406867d51
+size 291

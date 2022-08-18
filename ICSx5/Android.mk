@@ -1,11 +1,3 @@
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := ICSx5
-LOCAL_SRC_FILES := at.bitfire.icsdroid_62.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-
-include $(BUILD_PREBUILT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fa8bdf6996f9109cf2e15631a4a9a2c43f6f89deeda294b18451208d9ec8cf3
+size 260

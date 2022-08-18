@@ -1,10 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := AuroraStore
-LOCAL_SRC_FILE := com.aurora.store_38.apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILD)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4c0ecdffb392e387bfac8ed4ab9ce5fefd454a1236669226b3056984cf03f9f
+size 292
