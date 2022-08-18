@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a20cb89ba62bf2a4e89dd37ff0545c12d89fd3eea2484d16259a89983c4fbe4
-size 281
+include $(CLEAR_VARS)
+LOCAL_MODULE := NextCloudNotes
+LOCAL_SRC_FILES := it.niedermann.owncloud.notes_3005000.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)

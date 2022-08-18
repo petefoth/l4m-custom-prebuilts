@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8290585891f968ea46f21cd61e5355c70c9b27300eb283478615314e296937ce
-size 260
+include $(CLEAR_VARS)
+LOCAL_MODULE := OpenTasks
+LOCAL_SRC_FILES := org.dmfs.tasks_82200.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)

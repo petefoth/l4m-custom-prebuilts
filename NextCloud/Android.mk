@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c1199ba1b5d8c83522d8b4834031a09983039b9ebb1fc07a93dfed25bef5e89
-size 269
+include $(CLEAR_VARS)
+LOCAL_MODULE := NextCloud
+LOCAL_SRC_FILES := com.nextcloud.client_30210090.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:948926ddc5c73c683e5e84e71fd64cdce2ba2bfcf5f60b939116a2244d39a801
-size 266
+include $(CLEAR_VARS)
+LOCAL_MODULE := DAVx5
+LOCAL_SRC_FILES := at.bitfire.davdroid_402020000.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+
+include $(BUILD_PREBUILT)

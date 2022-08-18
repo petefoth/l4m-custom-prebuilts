@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5203bdf45b49e5fa91f25e4d5c66f85c57818e87682f90d1bda76dd834334611
-size 278
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := BlissLauncher
+LOCAL_SRC_FILES := foundation.e.blisslauncher_13100.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+
+include $(BUILD_PREBUILT)
