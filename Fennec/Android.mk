@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d854a3065112305e0a4a22a26102297db7a796879e724c1a7c5fb9cbea9885c9
-size 270
+include $(CLEAR_VARS)
+LOCAL_MODULE := Fennec
+LOCAL_SRC_FILES := org.mozilla.fennec_fdroid_1031020.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
