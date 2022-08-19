@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := QKSMS
 LOCAL_SRC_FILES := com.moez.QKSMS_2218.apk
