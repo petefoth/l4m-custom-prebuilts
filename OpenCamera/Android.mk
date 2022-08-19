@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := OpenCamera
 LOCAL_SRC_FILES := net.sourceforge.opencamera_85.apk
