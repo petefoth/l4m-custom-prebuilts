@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := K9-Mail
 LOCAL_SRC_FILES := com.fsck.k9_32002.apk
