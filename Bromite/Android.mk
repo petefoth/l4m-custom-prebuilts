@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := Bromite
 LOCAL_SRC_FILES := arm64_ChromePublic.apk
