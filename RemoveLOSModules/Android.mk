@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 # override lineageOSnoLOSEmail
 include $(CLEAR_VARS)
 LOCAL_MODULE := noLOSEmail
