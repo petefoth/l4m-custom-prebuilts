@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := NextCloudNotes
 LOCAL_SRC_FILES := it.niedermann.owncloud.notes_3005000.apk
