@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := OpenTasks
 LOCAL_SRC_FILES := org.dmfs.tasks_82200.apk
