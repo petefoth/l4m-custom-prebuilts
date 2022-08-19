@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := Fennec
 LOCAL_SRC_FILES := org.mozilla.fennec_fdroid_1031020.apk
