@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := DAVx5
 LOCAL_SRC_FILES := at.bitfire.davdroid_402020000.apk
